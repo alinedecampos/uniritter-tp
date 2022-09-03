@@ -1,0 +1,7 @@
+# Object files
+*.o
+*.d
+.ccls-cache
+.breakpoints
+Makefile
+main
