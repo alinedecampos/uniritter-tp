@@ -9,7 +9,7 @@
 void menu() {
 	printf("\n\nTRABALHANDO COM STRINGS \n");
 	printf("1 | Formas de declaração de strings \n");
-    printf("2 | Leitura de caracter\n");
+	printf("2 | Leitura de caracter\n");
 	printf("3 | Leitura usando scanf\n");
 	printf("4 | Leitura usando fgets \n");
 	printf("5 | Manipulação de strings \n");
@@ -80,7 +80,7 @@ void leituraFrase() {
 	// também poderia ser usado fgets(frase, sizeof(frase), stdin); para leitura de conteúdos que tem espaços entre as palavras
 	printf("Digite uma frase com até 20 caracteres:");
 	scanf(" %[^\n]", &frase);
-    printf("A frase digitada foi: ");
+	printf("A frase digitada foi: ");
 	printf("%s", frase);
 }
 
@@ -219,7 +219,7 @@ int main(void) {
 			case 2:
 				printf("\n**** LEITURA DE CARACTERES ****\n");
 				leituraCaracter();
-                break;
+				break;
 			case 3:	
 				printf("\n**** LEITURA DE STRINGS COM SCANF() ****\n");
 				leituraPalavra();
