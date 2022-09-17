@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Protótipo das funções
+// Protótipo das funções 
 // Deve ser estar no início do código fonte, acima da função main()
 void boasvindas();
 void boasvindasrepeticao(int num);

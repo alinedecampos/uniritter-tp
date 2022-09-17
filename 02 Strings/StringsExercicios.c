@@ -241,7 +241,6 @@ void escolha(int op) {
 }
 
 int main(void) {
-
 	int op;
 	do {
 		menu();
